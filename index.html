@@ -1077,6 +1077,133 @@ textarea{flex:1;resize:none;font:inherit;font-size:1rem;color:var(--ink);backgro
 .rq b{display:block;font-size:.95rem}
 .rq small{color:var(--muted);font-size:.8rem}
 .curio b{display:block}
+.pass-strip{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;width:calc(100% - 28px);margin:10px 14px 0;padding:10px 14px;border-radius:14px;color:#fff;text-align:left;background:linear-gradient(135deg,var(--fb-blue),#7A5CFF);box-shadow:0 4px 14px rgba(0,0,0,.12)}
+.pass-strip[hidden]{display:none}
+.ps-e{font-size:1.5rem}
+.ps-b b{display:block;font-size:.88rem;line-height:1.25}
+.ps-bar{display:block;height:6px;border-radius:3px;background:rgba(255,255,255,.3);margin:5px 0 3px;overflow:hidden}
+.ps-bar i{display:block;height:100%;background:#fff;border-radius:3px}
+.ps-b small{font-size:.74rem;opacity:.9}
+.ps-cl{padding:5px 10px;border-radius:999px;background:#fff;color:#A87B09;font-weight:800;font-size:.8rem;animation:pulse 1.4s infinite}
+.ps-go{font-size:1.6rem;opacity:.8}
+.act-row{display:flex;gap:12px;overflow-x:auto;padding:4px 14px 12px;scrollbar-width:none}
+.act-p{flex:none;display:flex;flex-direction:column;align-items:center;gap:4px;width:58px}
+.act-p .cav{width:52px;height:52px;font-size:1.4rem}
+.act-p small{font-size:.72rem;color:var(--fb-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:58px}
+.frow{display:grid;grid-template-columns:44px 1fr auto;gap:10px;align-items:center;width:100%;padding:8px 14px;text-align:left}
+.frow .cav{width:44px;height:44px}
+.frow-b b{display:block;font-size:.93rem}
+.frow-b small{color:var(--fb-muted);font-size:.78rem}
+.frow-b .bar{display:block;margin-top:5px;height:5px}
+.sugg-row{display:flex;gap:10px;overflow-x:auto;padding:4px 14px 14px;scrollbar-width:none}
+.sugg{flex:none;width:150px;display:flex;flex-direction:column;align-items:center;gap:4px;padding:12px 10px;border-radius:14px;border:1px solid var(--fb-line);text-align:center}
+.sugg-av{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:1.8rem}
+.sugg b{font-size:.88rem}
+.sugg small{color:var(--fb-muted);font-size:.74rem;line-height:1.3;min-height:2.6em}
+.sugg .fbb{width:100%;justify-content:center}
+.primary-b{background:var(--fb-blue)!important;color:#fff!important}
+.fbm-row{display:flex;gap:12px;align-items:center;width:100%;padding:12px 14px;font-size:1.4rem;text-align:left}
+.fbm-row b{display:block;font-size:.95rem}
+.fbm-row small{color:var(--fb-muted);font-size:.8rem}
+.mk-coins{color:#A87B09}
+.mk-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:0 12px 12px}
+.mk-t{display:flex;flex-direction:column;gap:3px}
+.mk-img{aspect-ratio:1;border-radius:10px;background:var(--fb-hover) center/cover;display:grid;place-items:center;font-size:2.4rem}
+.mk-p{font-size:.95rem;margin-top:4px}
+.mk-n{font-size:.85rem;line-height:1.25}
+.mk-t small{color:var(--fb-muted);font-size:.72rem;line-height:1.3}
+.mk-b{display:flex;gap:6px;margin-top:4px}
+.mk-b .fbb{flex:1;justify-content:center;font-size:.8rem;padding:6px 4px}
+.memq-img{height:150px;margin:6px 14px;border-radius:12px;background:#ccc center/cover}
+.memq-q{padding:8px 14px 10px;font-weight:600;line-height:1.4}
+.memq-r{padding:6px 14px 0;font-size:.88rem;color:var(--fb-muted)}
+.evp{overflow:hidden}
+.evp-cover{height:150px;display:grid;place-items:center;font-size:4rem}
+.evp-b{padding:12px 14px}
+.evp-d{color:#E41E3F;font-weight:700;font-size:.78rem}
+.evp-b h2{font-size:1.35rem;margin:2px 0}
+.evp-att{display:flex;align-items:center;gap:10px;margin-top:8px}
+.evp-avs{display:flex}
+.evp-avs .cav{margin-left:-8px;box-shadow:0 0 0 2px var(--fb-card)}
+.evp-avs .cav:first-child{margin-left:0}
+.evp-att small{color:var(--fb-muted);font-size:.8rem;line-height:1.3}
+.evp-post{display:grid;grid-template-columns:40px 1fr;gap:10px;padding:8px 14px}
+.evp-post p{font-size:.92rem;margin:2px 0}
+.evp-post small{color:var(--fb-muted);font-size:.74rem}
+.evr{display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:center;width:100%;padding:8px 14px;text-align:left}
+.evr-d{width:48px;height:52px;border-radius:10px;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1}
+.evr-d b{font-size:1.2rem}.evr-d small{font-size:.62rem;font-weight:700}
+.evr b{display:block;font-size:.93rem}
+.evr small{color:var(--fb-muted);font-size:.8rem}
+.pgh{display:grid;grid-template-columns:56px 1fr;gap:12px;align-items:center;padding:14px}
+.pgh-av{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;font-size:1.6rem}
+.pgh h2{font-size:1.1rem}
+.pgh small{color:var(--fb-muted);font-size:.82rem}
+.pgh .fbb{grid-column:1/-1;justify-self:start}
+.fb-follow.on{color:var(--fb-muted)}
+.sheet-foot.has-stk{flex-wrap:wrap}
+.stk-row{display:flex;gap:6px;width:100%;overflow-x:auto;padding-bottom:6px}
+.stk-row button{font-size:1.4rem}
+.bub{position:relative}
+.bub .rx{position:absolute;bottom:-10px;right:6px;font-size:.8rem;background:var(--paper);border-radius:10px;padding:0 4px;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+.bub.them .rx{right:auto;left:6px}
+.bub.has-rx{margin-bottom:10px}
+.rxp{position:fixed;z-index:70;display:flex;gap:4px;padding:6px 8px;border-radius:999px;background:var(--paper);box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.rxp button{font-size:1.5rem;width:40px;height:40px}
+div.fbn{cursor:pointer}
+.fbn-a{margin-top:6px}
+.srch-tabs{margin-top:8px}
+.pw{width:100%;text-align:left}
+/* Tinder */
+.tnd{background:linear-gradient(180deg,#1A0F14,#0B0B10)}
+.tnd-logo{font-size:1.15rem;background:linear-gradient(90deg,#FD297B,#FF5864,#FF655B);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tm-row{display:flex;gap:10px;overflow-x:auto;padding:10px 0 4px;scrollbar-width:none;min-height:74px}
+.tm{flex:none;display:flex;flex-direction:column;align-items:center;gap:3px;width:60px}
+.tm span{position:relative;width:54px;height:54px;border-radius:50%;background:#333 center/cover;box-shadow:0 0 0 2px #FF5864}
+.tm span i{position:absolute;right:-4px;bottom:-4px;font-style:normal;font-size:.9rem}
+.tm small{font-size:.66rem;color:#ccc;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:60px}
+.tm-empty{color:#888;font-size:.8rem;align-self:center}
+.tcard{position:absolute;inset:0;border-radius:22px;background:#222 center/cover;box-shadow:0 14px 40px rgba(0,0,0,.55);touch-action:none;overflow:hidden;transform:scale(calc(1 - var(--i) * .05)) translateY(calc(var(--i) * 14px));transition:transform .3s;user-select:none}
+.tcard:not(.top){filter:brightness(.55)}
+.tcard.dim::before{content:"";position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.tbars{position:absolute;top:10px;left:12px;right:12px;display:flex;gap:4px;z-index:3}
+.tbars i{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.35)}
+.tbars i.on{background:#fff}
+.tpanel{position:absolute;inset:0;display:flex;align-items:flex-end;z-index:2}
+.tcard .swp-t{position:static;width:100%;padding:70px 18px 20px;background:linear-gradient(transparent,rgba(0,0,0,.9))}
+.tcard .swp-t.full{background:rgba(0,0,0,.55);height:100%;padding-top:40px;display:flex;flex-direction:column;justify-content:flex-end}
+.tcard .swp-t b{font-size:1.9rem}
+.tnd-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tnd-tags span{font-size:.74rem;padding:4px 9px;border-radius:999px;background:rgba(255,255,255,.2);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.tnd-bio{font-size:1rem;line-height:1.5;margin-top:6px}
+.tnd-facts{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:8px;font-size:.98rem}
+.stamp{position:absolute;top:44px;z-index:4;padding:6px 12px;border:4px solid;border-radius:10px;font-weight:900;font-size:1.6rem;letter-spacing:1px;opacity:0;transition:opacity .12s}
+.stamp.yes{left:18px;color:#3CE08A;transform:rotate(-14deg)}
+.stamp.no{right:18px;color:#FF4F6D;transform:rotate(14deg)}
+.stamp.sup{left:50%;top:auto;bottom:40%;transform:translateX(-50%) rotate(-8deg);color:#3AB4FF}
+.to-yes .stamp.yes,.to-no .stamp.no,.to-sup .stamp.sup{opacity:1}
+.tnd-b{align-items:center;gap:14px!important}
+.tnd-b button{position:relative;width:52px;height:52px;background:#16161E!important}
+.tnd-b .sb-no,.tnd-b .sb-yes{width:66px;height:66px;font-size:1.9rem}
+.tnd-b .sb-no{color:#FF4F6D!important;box-shadow:0 0 0 2px #FF4F6D55}
+.tnd-b .sb-yes{color:#3CE08A!important;box-shadow:0 0 0 2px #3CE08A55}
+.tnd-b .sb-sup{color:#3AB4FF!important}
+.tnd-b .sb-rew{color:#F5B83D!important;font-size:1.3rem}
+.tnd-b .sb-boo{color:#B36BFF!important}
+.tnd-b i{position:absolute;top:-4px;right:-4px;min-width:18px;height:18px;border-radius:9px;background:#fff;color:#111;font-style:normal;font-size:.66rem;font-weight:800;display:grid;place-items:center}
+.tnd-empty{height:100%;display:grid;place-content:center;text-align:center;color:#ccc;gap:10px}
+.tnd-empty span{font-size:3rem;animation:pulse 1.2s infinite}
+.tmatch{position:fixed;inset:0;z-index:75;background:rgba(10,4,8,.92);display:grid;place-items:center;animation:rxin .3s}
+.tmatch-in{text-align:center;color:#fff;padding:24px;display:flex;flex-direction:column;align-items:center;gap:12px;max-width:360px}
+.tmatch-t{font-family:var(--serif);font-style:italic;font-size:2.8rem;background:linear-gradient(90deg,#3CE08A,#3AB4FF);-webkit-background-clip:text;background-clip:text;color:transparent}
+.tmatch-s{opacity:.9;line-height:1.4}
+.tmatch-av{display:flex;margin:10px 0}
+.tmatch-av span{width:110px;height:110px;border-radius:50%;border:4px solid #fff;background:#333 center/cover;display:grid;place-items:center;font-size:3rem}
+.tmatch-av .tm-p{margin-left:-20px}
+.tmatch-in .btn{width:100%;justify-content:center}
+.tm-keep{background:transparent!important;color:#fff!important;border:1px solid rgba(255,255,255,.4)!important}
+.fb-tabs{display:grid!important;grid-template-columns:repeat(6,1fr);flex-wrap:nowrap}
+.fb-tabs .fbt{min-width:0;width:auto}
 /* ---------- Comentarios ---------- */
 .clabel{font-size:.82rem;color:var(--muted);font-weight:600;margin-bottom:4px}
 .cm{display:grid;grid-template-columns:36px 1fr auto;gap:10px;padding:10px 0}
@@ -1288,7 +1415,7 @@ const blank = () => ({ likes: {}, saved: {}, comments: {}, seen: [], days: {}, t
   xp: 0, lang: 'mix', dislike: {}, hidden: {}, golden: {}, cromos: {}, cromoMeta: {}, cromoFail: {}, friend: {}, dms: {}, dmRead: {}, myst: {}, ms: {},
   wk: { id: '', t: {}, rank: {} }, skips: {}, unread: {}, facts: {}, rev: {}, frozen: {}, freeze: 1, habit: null, loc: null,
   pass: {}, owned: {}, titles: [], title: '', dupes: {}, series: {}, seasonReads: {}, seasonDone: {}, seasonCards: {}, dwell: {}, fdwell: {}, wkXP: {},
-  league: { div: 0, week: '' }, curio: [], sq: null, convUsed: {}, offline: {}, menuUse: {}, news: [], lastBackup: 0, pend: {}, coins: 0, pity: 0, craftFail: {}, stickers: {}, showcase: [], covers: {}, cover: '', login: { last: '', step: 0, claimed: '' }, toRead: {}, followers: 0, skillHist: [], lastSeen: 0, dxpUntil: 0, colCache: {}, colLv2At: {}, colMaster: {}, flags: {}, enDays: {}, evDone: {}, theme: '', frame: '', qstreak: 0, qbest: 0, games: {},
+  league: { div: 0, week: '' }, friendReq: {}, rsvp: {}, pageFollow: {}, swipeDay: null, curio: [], sq: null, convUsed: {}, offline: {}, menuUse: {}, news: [], lastBackup: 0, pend: {}, coins: 0, pity: 0, craftFail: {}, stickers: {}, showcase: [], covers: {}, cover: '', login: { last: '', step: 0, claimed: '' }, toRead: {}, followers: 0, skillHist: [], lastSeen: 0, dxpUntil: 0, colCache: {}, colLv2At: {}, colMaster: {}, flags: {}, enDays: {}, evDone: {}, theme: '', frame: '', qstreak: 0, qbest: 0, games: {},
   paths: {}, pathCache: {},
   gramFeed: 'para', ko: { level: null, words: {}, hangul: {}, seenB: 0, seenP: 0, days: {}, reviews: 0, joined: false } });
 let S;
@@ -2716,11 +2843,12 @@ function bookShell() {
         </div>
       </div>
       <nav class="fb-tabs" aria-label="Secciones de Mysthbook">
-        ${[['inicio', FBI.home, 'Inicio'], ['grupos', FBI.users, 'Grupos'], ['rutas', '<svg viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h13v14H6a2 2 0 0 0-2 2 2 2 0 0 0 2 2h13"/><path d="M9 7h6"/></svg>', 'Rutas'], ['notifs', FBI.bell, 'Notificaciones'], ['menu', FBI.menu, 'Menú']]
+        ${[['inicio', FBI.home, 'Inicio'], ['amigos', '<svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M17 11v6M14 14h6"/></svg>', 'Amigos'], ['market', '<svg viewBox="0 0 24 24"><path d="M3 9l1.5-5h15L21 9"/><path d="M3 9h18v1.5a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0Z"/><path d="M5 13v7h14v-7"/><path d="M10 20v-4h4v4"/></svg>', 'Marketplace'], ['grupos', FBI.users, 'Grupos'], ['notifs', FBI.bell, 'Notificaciones'], ['menu', FBI.menu, 'Menú']]
           .map(([k, ic, l]) => `<button class="fbt" data-tab="${k}" aria-label="${l}">${ic}${k === 'notifs' ? '<span class="fb-badge" id="fb-badge"></span>' : k === 'menu' ? '<span class="fb-badge" id="menu-badge"></span>' : ''}</button>`).join('')}
       </nav>
     </header>
     <section class="fbs" id="fb-inicio">
+      <button class="pass-strip" id="pass-strip" data-act="m-pase"></button>
       <button class="fb-search" data-hk="search-b">🔍 Busca algo que te dé curiosidad…</button>
       <div class="fb-card fb-composer"><span class="pav you" id="fb-me">Tú</span><button class="inp" data-act="compose">¿Qué aprendiste hoy?</button></div>
       <div class="fb-card fb-stories" id="fb-stories"></div>
@@ -2730,6 +2858,8 @@ function bookShell() {
     </section>
     <section class="fbs" id="fb-grupos" hidden></section>
     <section class="fbs" id="fb-rutas" hidden></section>
+    <section class="fbs" id="fb-amigos" hidden></section>
+    <section class="fbs" id="fb-market" hidden></section>
     <section class="fbs" id="fb-notifs" hidden></section>
     <section class="fbs" id="fb-menu" hidden></section>
     <section class="fbs" id="fb-topic" hidden><div id="fb-thead"></div><div id="fb-tfeed"></div><div class="fb-card" id="fb-tsent"></div></section>
@@ -2739,7 +2869,7 @@ function bookShell() {
 }
 function showSub(name, tab) {
   if (fbSub === 'inicio') homeScroll = bookEl.scrollTop;
-  ['inicio', 'grupos', 'rutas', 'notifs', 'menu', 'topic', 'extra'].forEach((s) => { $('#fb-' + s).hidden = s !== name; });
+  ['inicio', 'grupos', 'rutas', 'amigos', 'market', 'notifs', 'menu', 'topic', 'extra'].forEach((s) => { const x = $('#fb-' + s); if (x) x.hidden = s !== name; });
   fbSub = name; fbTab = tab || name;
   $$('.fbt').forEach((b) => b.classList.toggle('on', b.dataset.tab === fbTab));
   bookEl.scrollTop = name === 'inicio' ? homeScroll : 0;
@@ -2747,6 +2877,8 @@ function showSub(name, tab) {
   if (name === 'notifs') renderNotifs();
   if (name === 'menu') renderMenu();
   if (name === 'rutas') renderRutas();
+  if (name === 'amigos') renderAmigos();
+  if (name === 'market') renderMarket();
   if (name === 'inicio') renderMine();
 }
 function rememberBack() { navBack = { sub: fbSub, tab: fbTab }; }
@@ -6095,7 +6227,7 @@ function openPass() {
       <p class="pass-how">Todo lo que te da XP avanza el pase. Las semanas temáticas y los eventos de temporada dan XP extra.</p>
       ${tier >= 30 && !p.second ? '<button class="fbb pass2" data-hk="pass2">🚀 Activar segundo pase: 30 niveles más este mes</button>' : ''}</div>
     <div class="fb-card"><h3 class="fbg-h">📅 Semanas de este pase</h3>${weeksOfMonth(mk).map((w) => { const done = !!S.evDone[w.id], cur = w.id === wk;
-      return `<div class="pw${cur ? ' cur' : ''}${done ? ' done' : ''}"><span>${w.ev.e}</span><div><b>${esc(w.ev.n)}</b><small>${done ? '✅ Completada: +150 XP de pase' : cur ? `En curso: ${Math.min(eventProgress(ev).n, eventProgress(ev).goal)} de ${eventProgress(ev).goal} ${esc(eventProgress(ev).unit)}. Premio: +150 XP de pase` : w.mo > new Date() ? `Empieza el ${w.mo.getDate()} de ${MESES[w.mo.getMonth()]}` : 'Terminó'}</small></div></div>`; }).join('')}</div>
+      return `<button class="pw${cur ? ' cur' : ''}${done ? ' done' : ''}" data-hk="evp" data-kind="week" data-id="${w.id}"><span>${w.ev.e}</span><div><b>${esc(w.ev.n)}</b><small>${done ? '✅ Completada: +150 XP de pase' : cur ? `En curso: ${Math.min(eventProgress(ev).n, eventProgress(ev).goal)} de ${eventProgress(ev).goal} ${esc(eventProgress(ev).unit)}. Premio: +150 XP de pase` : w.mo > new Date() ? `Empieza el ${w.mo.getDate()} de ${MESES[w.mo.getMonth()]}` : 'Terminó'}</small></div></button>`; }).join('')}</div>
     ${currentSeason() ? (() => { const cs = currentSeason(), sp = seasonProgress(cs); return `<div class="fb-card pw-season ss-${cs.id}"><b>${cs.e} Evento: ${esc(cs.n)}</b><p>Lee ${sp.goal} artículos especiales del evento para ganar el cromo exclusivo «${esc(cs.card.n)}» ${cs.card.e} y +300 XP de pase.</p><span class="bar"><i style="width:${Math.min(100, Math.round(sp.n / sp.goal * 100))}%"></i></span><small>${sp.done ? '✅ ¡Completado!' : `${sp.n} de ${sp.goal}`}</small></div>`; })() : ''}
     <div class="fb-card pass"><h3 class="fbg-h">🎁 Premios</h3><div class="ptiers">${Array.from({ length: MX }, (_, j) => { const i = j + 1, r = passReward(i, mk), got = p.claimed[i], can = !got && tier >= i;
       return `${i === 31 ? '<p class="pass-sep">🚀 Segundo pase</p>' : ''}<button class="pt${got ? ' got' : ''}${can ? ' can' : ''}${i % 10 === 0 || i === 45 ? ' big' : ''}${i > 30 ? ' plus' : ''}" ${can ? `data-hk="pass-claim" data-i="${i}"` : 'disabled'}><small>${i}</small><span>${r.e}</span><em>${esc(r.n)}</em>${got ? '<i>✓</i>' : can ? '<i>Reclamar</i>' : ''}</button>`; }).join('')}</div></div>`, 'menu');
@@ -6332,12 +6464,14 @@ const liveObs = new IntersectionObserver((es) => es.forEach((e) => {
   if (e.isIntersecting && e.intersectionRatio >= 0.5 && S.liveFx !== false) {
     if (LIVE.has(el)) return;
     const base = 5 + (hash(id + 'lv') % 70);
-    let chip = $('.live-chip', el);
-    if (!chip) { chip = document.createElement('span'); chip.className = 'live-chip'; if (el.classList.contains('post')) el.prepend(chip); else el.append(chip); }
-    const trend = likeCount(id) > 2300;
-    const upd = () => { chip.textContent = `${trend ? '🔥 Tendencia · ' : ''}👀 ${base + rnd(7) - 3} leyendo ahora`; };
-    upd();
-    const t1 = setInterval(upd, 3500);
+    const isPost = el.classList.contains('post'), trend = likeCount(id) > 2300;
+    let chip = $('.live-chip', el), t1 = null;
+    if (isPost) { if (trend && !chip) { chip = document.createElement('span'); chip.className = 'live-chip'; chip.textContent = '🔥 Tendencia en Mysthbook'; el.prepend(chip); } }
+    else {
+      if (!chip) { chip = document.createElement('span'); chip.className = 'live-chip'; el.append(chip); }
+      const upd = () => { chip.textContent = `${trend ? '🔥 Tendencia · ' : ''}👀 ${base + rnd(7) - 3} leyendo ahora`; };
+      upd(); t1 = setInterval(upd, 3500);
+    }
     const t2 = el.classList.contains('card') ? setInterval(() => floatHeart(el), 1600 + rnd(2400)) : null;
     const t3 = setTimeout(() => liveComment(el), 4500 + rnd(3000));
     LIVE.set(el, [t1, t2, t3]);
@@ -7228,7 +7362,7 @@ function goRead() {
 function todayTasks() {
   const out = [], d = dayKey();
   const r = riskText(); if (r) out.push({ k: 'risk', p: 1, e: '🔥', t: 'Tu racha está en riesgo', s: r.replace('⚠️ ', ''), go: goRead, btn: 'Leer ahora' });
-  const due = dueFacts().length; if (due) out.push({ k: 'rev', p: 2, e: '🧠', t: `Tu repaso está listo (${Math.min(due, 8)} datos)`, s: 'Recordar hoy fija lo que leíste', go: startReview, btn: 'Repasar' });
+  const due = dueFacts().length; if (due) out.push({ k: 'rev', p: 2, e: '🧠', t: `Tienes ${Math.min(due, 8)} recuerdos para repasar`, s: 'De artículos que leíste hace unos días', go: startReview, btn: 'Repasar' });
   if (S.login.claimed !== d) out.push({ k: 'login', p: 3, e: '🎁', t: `Reclama tu premio del día ${S.login.step || 1}`, s: 'El premio crece cada día que vuelves', go: () => openLogin(true), btn: 'Reclamar' });
   const ev = currentEvent(), ep = eventProgress(ev), left = ep.goal - ep.n;
   if (!S.evDone[weekId()] && left > 0 && (left <= 5 || ep.n / ep.goal >= 0.5)) out.push({ k: 'week', p: 4, e: ev.e, t: `Te faltan ${left} para completar la ${ev.n}`, s: `${ep.n} de ${ep.goal} ${ep.unit}`, go: () => (ev.k === 'ko' ? goKoPractice() : goRead()), btn: 'Ir' });
@@ -7638,7 +7772,7 @@ openChat = function (k) {
     const msgs = S.dms[k] || [], last = msgs.at(-1), f = friendLevel(k), lastMe = [...msgs].reverse().find((m) => m.f === 'me');
     $('#sheet-body').innerHTML = `<button class="chat-h" data-persona="${k}"><span class="cav" style="background:${p.c}">${p.e}${online(k) ? '<i class="on-dot"></i>' : ''}</span><span><b>${esc(p.n)}</b><small>${online(k) ? 'Activo ahora' : `Activo hace ${1 + (hash(k + dayKey()) % 5)} h`} · 🤝 ${f.name}</small></span></button>
       <div class="chat">${msgs.map((m, i) => { const prev = msgs[i - 1], gap = !prev || m.at - prev.at > 30 * 60000;
-        return `${gap ? `<p class="chat-time">${ago(m.at)}</p>` : ''}<div class="bub ${m.f === 'me' ? 'me' : 'them'}">${esc(m.t)}${m.card ? `<button class="bub-card" data-open-card="1">${m.card.img ? `<img src="${esc(m.card.img)}" alt="">` : ''}<b>${esc(m.card.title)}</b><small>${esc(m.card.desc || '')}</small></button>` : ''}</div>${m === lastMe && last === lastMe ? '<p class="seen">Visto</p>' : ''}`; }).join('')}
+        return `${gap ? `<p class="chat-time">${ago(m.at)}</p>` : ''}<div class="bub ${m.f === 'me' ? 'me' : 'them'}${m.rx ? ' has-rx' : ''}" data-mi="${i}">${m.rx ? `<span class="rx">${m.rx}</span>` : ''}${esc(m.t)}${m.card ? `<button class="bub-card" data-open-card="1">${m.card.img ? `<img src="${esc(m.card.img)}" alt="">` : ''}<b>${esc(m.card.title)}</b><small>${esc(m.card.desc || '')}</small></button>` : ''}</div>${m === lastMe && last === lastMe ? '<p class="seen">Visto</p>' : ''}`; }).join('')}
       ${ST_TYPING.has(k) ? '<div class="bub them typing"><i></i><i></i><i></i></div>' : ''}</div>`;
     const opts = last?.f === 'p' && last.opts && !last.chosen && !ST_TYPING.has(k) ? `<div class="chat-opts">${last.opts.map((o, i) => `<button class="chip" data-dmo="${i}">${esc(o.l)}</button>`).join('')}</div>` : '';
     $('#sheet-foot').innerHTML = `${opts}<div class="chat-in"><input id="dm-in" placeholder="Escribe un mensaje…" maxlength="300" aria-label="Mensaje"><button class="btn primary" data-dmsend="1">Enviar</button></div>`;
@@ -7651,6 +7785,7 @@ openChat = function (k) {
       const msgs = S.dms[k];
       msgs.push({ f: 'p', t: reply, at: Date.now(), ...(next ? {} : extra || {}) });
       if (next) setTimeout(() => { msgs.push({ f: 'p', t: next.t, opts: next.opts, at: Date.now() }); S.dmRead[k] = Date.now(); persist(); if ($('#sheet').classList.contains('open')) render(); }, 900);
+      if (Math.random() < 0.35) { const lm = [...msgs].reverse().find((x) => x.f === 'me'); if (lm && !lm.rx) lm.rx = pickOne(['❤️', '😂', '👍', '😮']); }
       S.dmRead[k] = Date.now(); persist(); sfx('pop');
       if ($('#sheet').classList.contains('open')) render();
     }, 900 + Math.random() * 900);
@@ -7901,6 +8036,471 @@ document.addEventListener('click', (e) => {
     'srch-go': () => { const q = $('#srch-in')?.value.trim(); if (q) runSearch(q); },
     'search-q': () => runSearch(b.dataset.q),
     'rq-open': () => { const a = getA(b.dataset.id); if (a) { closeSheet(); openRead(a); } }
+  }[k];
+  if (fn) { e.stopPropagation(); fn(); }
+}, true);
+
+
+/* ---------- Pase visible en el Inicio de Mysthbook ---------- */
+function updatePassStrip() {
+  const el = $('#pass-strip'); if (!el) return;
+  if (!feat('pase')) { el.hidden = true; return; }
+  el.hidden = false;
+  const p = passState(), MX = PASS_MAX(), tier = Math.min(MX, Math.floor(p.xp / PASS_STEP)), into = p.xp % PASS_STEP, cl = claimable(), s = monthSeason();
+  el.className = `pass-strip ${s ? 'ss-' + s.id : ''}`;
+  el.innerHTML = `<span class="ps-e">🎟️</span><span class="ps-b"><b>${esc(passName())} · Nivel ${tier}${p.second ? ' (2.º pase)' : ''}</b><span class="ps-bar"><i style="width:${tier >= MX ? 100 : Math.round(into / PASS_STEP * 100)}%"></i></span><small>${tier >= MX ? '¡Pase completado!' : `${into} de ${PASS_STEP} XP para el nivel ${tier + 1}`}</small></span>${cl ? `<span class="ps-cl">🎁 ${cl}</span>` : '<span class="ps-go">›</span>'}`;
+};
+const __ud2 = updateDots;
+updateDots = function () { __ud2(); updatePassStrip(); };
+const __px = passXP;
+passXP = function (n) { __px(n); updatePassStrip(); };
+setTimeout(updatePassStrip, 1200);
+const __smP = setMode;
+setMode = function (...args) { const r = __smP(...args); setTimeout(updatePassStrip, 50); return r; };
+const __ssP = showSub;
+showSub = function (...args) { const r = __ssP(...args); if (args[0] === 'inicio') updatePassStrip(); return r; };
+/* =========================================================
+   Mysthbook más Facebook: Amigos, Marketplace, Recuerdos,
+   Eventos, Páginas, Editar perfil, Messenger, Notificaciones,
+   búsqueda con pestañas, sentimientos y Deslizar tipo Tinder
+   ========================================================= */
+const PERSONAS = () => Object.keys(PB).filter((k) => k !== 'la.maestra');
+const affinity = (k) => P[k].top.reduce((s, t) => s + (S.likedTopics[t] || 0) + (S.topicReads[t] || 0) * 0.05, 0);
+const avatar = (k, cls = 'cav') => `<span class="${cls}" style="background:${P[k].c}">${P[k].e}${online(k) ? '<i class="on-dot"></i>' : ''}</span>`;
+
+/* ---------- 1. Pestaña Amigos ---------- */
+function renderAmigos() {
+  const ks = PERSONAS();
+  const friends = ks.filter((k) => friendLevel(k).i >= 1).sort((a, b) => (S.friend[b] || 0) - (S.friend[a] || 0));
+  const sugg = ks.filter((k) => friendLevel(k).i === 0 && !S.friendReq[k]).sort((a, b) => affinity(b) - affinity(a)).slice(0, 6);
+  const act = ks.filter(online).slice(0, 10);
+  let rank = '';
+  if (feat('liga')) {
+    const rows = leagueRows(), fr = rows.filter((r) => r.me || (r.k && friendLevel(r.k).i >= 1)).slice(0, 6);
+    rank = `<div class="fb-card"><h3 class="fbg-h">🏆 Ranking entre amigos esta semana</h3>${fr.length > 1 ? fr.map((r, i) => `<div class="lbr${r.me ? ' me' : ''}"><span class="lbn">${i + 1}</span><span class="lba" style="background:${r.me ? 'var(--fb-blue)' : r.c}">${r.me ? esc(myInitial()) : esc(r.e)}</span><b>${esc(r.n)}</b><span class="lbs">${r.s} XP</span></div>`).join('') : '<p class="mem-l" style="padding:0 14px">Agrega amigos para competir con ellos.</p>'}
+      <div class="kpb"><button class="fbb" data-act="m-liga">Ver liga completa</button></div></div>`;
+  }
+  $('#fb-amigos').innerHTML = `<div class="fb-card fbx-head"><h2>Amigos</h2></div>
+    <div class="fb-card"><h3 class="fbg-h">🟢 Activos ahora</h3><div class="act-row">${act.map((k) => `<button class="act-p" data-hk="chat" data-k="${k}">${avatar(k)}<small>${esc(P[k].n.split(' ')[0])}</small></button>`).join('')}</div></div>
+    <div class="fb-card"><h3 class="fbg-h">Tus amigos (${friends.length})</h3>${friends.length ? friends.map((k) => { const f = friendLevel(k), pct = f.next ? Math.round((f.p - FRIEND[f.i][0]) / (f.next - FRIEND[f.i][0]) * 100) : 100;
+      return `<div class="frow">${avatar(k)}<div class="frow-b" data-persona="${k}"><b>${esc(P[k].n)}</b><small>🤝 ${f.name} · ${esc(PB[k]?.[1] || '')}</small><span class="bar"><i style="width:${pct}%"></i></span></div><button class="fbb" data-hk="chat" data-k="${k}">Mensaje</button></div>`; }).join('')
+      : '<p class="mem-l" style="padding:0 14px 12px">Interactúa con las personas (comentarios, mensajes, me gusta) o agrégalas desde las sugerencias.</p>'}</div>
+    ${sugg.length ? `<div class="fb-card"><h3 class="fbg-h">Personas que quizá conozcas</h3><div class="sugg-row">${sugg.map((k) => `<div class="sugg"><span class="sugg-av" style="background:${P[k].c}">${P[k].e}</span><b data-persona="${k}">${esc(P[k].n)}</b><small>Le interesa: ${P[k].top.map((t) => TOPICS[t]?.e || '').join(' ')} ${esc(TOPICS[P[k].top[0]]?.n || '')}</small><button class="fbb primary-b" data-hk="addf" data-k="${k}">Agregar</button><button class="fbb" data-hk="rmsug" data-k="${k}">Eliminar</button></div>`).join('')}</div></div>` : ''}
+    <div class="fb-card"><button class="fbm-row" data-act="m-birthdays">🎂 <span><b>Cumpleaños</b><small>Personajes que cumplen años hoy</small></span></button></div>
+    ${rank}`;
+}
+function addFriend(k) {
+  S.friendReq[k] = Date.now(); const need = FRIEND[1][0] - (S.friend[k] || 0); if (need > 0) friendUp(k, need);
+  persist(); sfx('pop'); toast(`🤝 Ahora eres amigo de ${P[k].n}`);
+  setTimeout(() => { pushDM(k, [{ f: 'p', t: `¡Gracias por agregarme! 😊 ${pickOne(['¿De qué te gusta leer?', '¿Qué tema te tiene enganchado estos días?', '¿Desde cuándo usas Mysthbook?'])}`,
+    opts: [{ l: 'De todo un poco', r: '¡Igual yo! La curiosidad no tiene límites 🤓' }, { l: `De ${TOPICS[P[k].top[0]]?.n.toLowerCase() || 'historia'}`, r: '¡No puede ser, es mi tema favorito! Tenemos que platicar más 🙌' }, { l: 'Apenas empiezo', r: '¡Bienvenido! Aquí te vas a divertir mucho 😄' }] }]);
+    addNotif({ icon: '🤝', who: k, html: `<b>${esc(P[k].n)}</b> aceptó tu solicitud y te envió un mensaje.`, go: { t: 'dm', k } }); }, 4000);
+  renderAmigos();
+}
+
+/* ---------- 2. Marketplace ---------- */
+let MK_TAB = 'todo';
+function marketListings() {
+  const r = mulberry(hash('mk' + dayKey())), missing = shuffleR(Object.keys(COLQ).filter((q) => !S.cromos[q] && !S.pend[q] && S.cromoMeta[q]?.l), r).slice(0, 8);
+  return missing.map((q) => { const k = pickR(PERSONAS(), r); return { q, k, price: Math.round(CRAFT[rarity(q)[1]] * 0.8) }; });
+}
+async function renderMarket() {
+  const box = $('#fb-market');
+  const need = COLLECTIONS.filter((c) => c.q.length && c.q.some((q) => !S.cromoMeta[q]));
+  if (need.length && !MK_RESOLVED) { MK_RESOLVED = true; box.innerHTML = `<div class="fb-card">${fbSkeleton}</div>`; await Promise.all(shuffleR(need, Math.random).slice(0, 4).map((c) => resolveCol(c).catch(() => {}))); }
+  const list = marketListings(), dupes = Object.keys(S.dupes).filter((q) => S.dupes[q] > 0), shop = shopItems();
+  const tab = (k, l) => `<button class="chip" data-hk="mk-tab" data-t="${k}" aria-pressed="${MK_TAB === k}">${l}</button>`;
+  const tile = (img, e, title, price, sub, btn) => `<div class="mk-t"><span class="mk-img"${img ? ` style="background-image:url('${esc(img)}')"` : ''}>${img ? '' : e}</span><b class="mk-p">${price}</b><span class="mk-n">${esc(title)}</span><small>${sub}</small>${btn}</div>`;
+  const cromoTiles = list.map((x) => { const m = S.cromoMeta[x.q] || {}, c = COLQ[x.q], canTrade = dupes.length > 0;
+    return tile(m.img, c.e, m.l, `${x.price} 🪙${canTrade ? ' o cambio' : ''}`, `${c.e} ${esc(c.n)} · ${esc(P[x.k].n.split(' ')[0])}, ${esc(PB[x.k]?.[1] || '')}`,
+      `<div class="mk-b"><button class="fbb" data-hk="mk-buy" data-q="${x.q}" data-p="${x.price}" ${S.coins >= x.price ? '' : 'disabled'}>Comprar</button>${canTrade ? `<button class="fbb" data-hk="mk-trade" data-q="${x.q}" data-k="${x.k}">Cambiar</button>` : ''}</div>`); }).join('');
+  const shopTiles = shop.map((x) => tile('', x.e, x.n, `${x.p} 🪙`, 'Mysthbook · Tienda oficial', `<div class="mk-b"><button class="fbb" data-hk="buy" data-id="${x.id}" ${S.coins >= x.p ? '' : 'disabled'}>Comprar</button></div>`)).join('');
+  const mineTiles = dupes.map((q) => { const m = S.cromoMeta[q] || {}, v = SELLV[rarity(q)[1]];
+    return tile(m.img, COLQ[q]?.e || '🃏', m.l || 'Cromo', `${v} 🪙`, `Repetido ×${S.dupes[q]}`, `<div class="mk-b"><button class="fbb" data-hk="mk-sell" data-q="${q}">Vender 1</button></div>`); }).join('');
+  box.innerHTML = `<div class="fb-card fbx-head"><h2>Marketplace</h2><b class="mk-coins">🪙 ${fmt(S.coins || 0)}</b></div>
+    <div class="fb-card" style="padding:10px 14px"><div class="goals">${tab('todo', 'Todo')}${tab('cromos', '🃏 Cromos')}${tab('tienda', '🛒 Tienda')}${tab('mios', `📦 Tus artículos${dupes.length ? ` (${dupes.length})` : ''}`)}</div></div>
+    ${MK_TAB === 'todo' || MK_TAB === 'cromos' ? `<div class="fb-card"><h3 class="fbg-h">Cromos que te faltan, publicados hoy</h3>${list.length ? `<div class="mk-grid">${cromoTiles}</div>` : '<p class="mem-l" style="padding:0 14px 14px">Hoy no hay cromos publicados. Vuelve mañana.</p>'}<p class="mem-l" style="padding:0 14px 12px">Los cromos comprados o cambiados llegan sin verificar: léelos para activarlos.</p></div>` : ''}
+    ${MK_TAB === 'todo' || MK_TAB === 'tienda' ? `<div class="fb-card"><h3 class="fbg-h">Tienda Mysthbook</h3><div class="mk-grid">${shopTiles}</div></div>` : ''}
+    ${MK_TAB === 'todo' || MK_TAB === 'mios' ? `<div class="fb-card"><h3 class="fbg-h">Tus artículos en venta</h3>${dupes.length ? `<div class="mk-grid">${mineTiles}</div>` : '<p class="mem-l" style="padding:0 14px 14px">Tus cromos repetidos aparecerán aquí para venderlos o cambiarlos.</p>'}</div>` : ''}`;
+}
+let MK_RESOLVED = false;
+
+/* ---------- 3. Recuerdos (repaso) ---------- */
+function memoryQuizCard() {
+  const f = interleaveTopics(dueFacts())[0]; if (!f) return null;
+  const opts = optsFor(f); if (!opts) return null;
+  const days = Math.max(1, Math.round((Date.now() - f.at) / 864e5));
+  const el = document.createElement('div'); el.className = 'fb-card memq';
+  const id = 'mq' + Date.now() + rnd(99); MEMQ.set(id, { fid: f.id, ok: opts.indexOf(f.ans), ans: f.ans });
+  el.innerHTML = `<div class="sp-head">📅 <b>Recuerdos</b><small>Hace ${days} ${days === 1 ? 'día' : 'días'}</small></div>
+    <p class="mem-l">Leíste sobre <b>${esc(f.t)}</b>. ¿Lo recuerdas?</p>${f.img && f.kind !== 'quote' ? `<div class="memq-img" style="background-image:url('${esc(f.img)}')"></div>` : ''}
+    <p class="memq-q">${f.kind === 'cloze' ? esc(f.q) : esc(f.q)}</p><div class="kopts light" style="padding:0 14px">${opts.map((o, i) => `<button class="qbtn" data-hk="memq" data-m="${id}" data-i="${i}">${esc(o)}</button>`).join('')}</div>
+    <p class="memq-r"></p><div class="kpb"><button class="fbb" data-act="rev-start">Ver todos tus recuerdos (${Math.min(dueFacts().length, 8)})</button></div>`;
+  return el;
+}
+const MEMQ = new Map();
+const __om = openMemories;
+openMemories = function () {
+  __om();
+  const n = dueFacts().length;
+  $('#fb-extra .fbx-body')?.insertAdjacentHTML('afterbegin', `<div class="fb-card memq"><div class="sp-head">🧠 <b>Tus recuerdos para repasar</b></div><p class="mem-l">${n ? `Tienes <b>${Math.min(n, 8)}</b> recuerdos de artículos que leíste hace unos días. Recordarlos hoy hace que no se te olviden.` : 'Hoy no tienes recuerdos pendientes. ¡Vuelve mañana!'}</p>${n ? '<div class="kpb"><button class="fbb" data-act="rev-start">Repasar recuerdos</button></div>' : ''}</div>`);
+};
+
+/* ---------- 4. Eventos al estilo Facebook ---------- */
+function evInfo(kind, id) {
+  if (kind === 'week') {
+    const mo = new Date(id + 'T00:00:00'), ev = WEEKEV[(((Math.floor(mo.getTime() / (7 * 864e5)) - EV_BASE) % WEEKEV.length) + WEEKEV.length) % WEEKEV.length];
+    const end = new Date(mo); end.setDate(mo.getDate() + 6); end.setHours(23, 59);
+    const cur = id === weekId(), p = cur ? eventProgress(ev) : null;
+    return { key: 'w:' + id, e: ev.e, n: ev.n, start: mo, end, color: TOPICS[ev.k]?.c || '#1B74E4', cur, done: !!S.evDone[id], prog: p, prize: 'insignia exclusiva y +150 XP de pase' };
+  }
+  const s = SEASONS.find((x) => x.id === id), y = new Date().getFullYear();
+  let start, end;
+  if (s.around) { const c = new Date((s.around[y] || s.around[y + 1]) + 'T00:00:00'); start = new Date(c - 7 * 864e5); end = new Date(+c + 7 * 864e5); }
+  else { start = new Date(y, s.from[0] - 1, s.from[1]); end = new Date(s.to[0] < s.from[0] ? y + 1 : y, s.to[0] - 1, s.to[1], 23, 59); if (end < new Date()) { start.setFullYear(y + 1); end.setFullYear(end.getFullYear() + 1); } }
+  const cur = seasonOn(s), sp = cur ? seasonProgress(s) : null;
+  return { key: 's:' + id, e: s.e, n: s.n, start, end, color: s.c1, c2: s.c2, cur, done: sp?.done, prog: sp ? { n: sp.n, goal: sp.goal, unit: 'artículos especiales' } : null, prize: `cromo exclusivo «${s.card.n}», marco de temporada y +300 XP de pase` };
+}
+function upcomingEvents() {
+  const out = [{ kind: 'week', id: weekId() }], nx = new Date(mondayOf()); nx.setDate(nx.getDate() + 7);
+  out.push({ kind: 'week', id: dayKey(nx) });
+  const now = new Date();
+  SEASONS.map((s) => ({ s, i: evInfo('season', s.id) })).filter(({ i }) => i.cur || (i.start > now && i.start - now < 60 * 864e5)).sort((a, b) => a.i.start - b.i.start).slice(0, 3).forEach(({ s }) => out.push({ kind: 'season', id: s.id }));
+  return out;
+}
+function openEventPage(kind, id) {
+  const i = evInfo(kind, id), now = new Date(), going = !!S.rsvp[i.key];
+  const r = mulberry(hash(i.key)), att = shuffleR(PERSONAS(), r).slice(0, 5), count = 40 + Math.floor(r() * 400) + (going ? 1 : 0);
+  const when = i.cur ? `Termina en ${Math.max(1, Math.ceil((i.end - now) / 864e5))} ${Math.ceil((i.end - now) / 864e5) === 1 ? 'día' : 'días'}` : i.start > now ? `Empieza en ${Math.ceil((i.start - now) / 864e5)} días` : 'Terminó';
+  const fmtD = (d) => d.toLocaleDateString('es-MX', { weekday: 'short', day: 'numeric', month: 'short' });
+  const posts = [`¡Lista la ${i.n}! ¿Quién más va por el reto? 🙌`, `Ya llevo varios artículos del tema, está buenísimo 🤓`, `Me encanta este evento, siempre aprendo algo nuevo ✨`];
+  if (fbSub !== 'extra') rememberBack();
+  openExtra(i.n, `<div class="fb-card evp"><div class="evp-cover" style="background:linear-gradient(135deg,${i.color},${i.c2 || '#101826'})"><span>${i.e}</span></div>
+      <div class="evp-b"><small class="evp-d">${fmtD(i.start).toUpperCase()} – ${fmtD(i.end).toUpperCase()}</small><h2>${esc(i.n)}</h2><p class="mem-l">⏳ ${when} · Evento de Mysthbook</p>
+      <div class="evp-att"><span class="evp-avs">${att.map((k) => `<span class="cav sm" style="background:${P[k].c}">${P[k].e}</span>`).join('')}</span><small>${esc(P[att[0]].n.split(' ')[0])}, ${esc(P[att[1]].n.split(' ')[0])} y ${fmt(count - 2)} personas más asistirán</small></div>
+      <div class="kpb" style="padding:10px 0 0"><button class="fbb ${going ? '' : 'primary-b'}" data-hk="rsvp" data-kind="${kind}" data-id="${id}">${going ? '✓ Asistirás' : '⭐ Asistiré'}</button>${i.cur ? '<button class="fbb" data-hk="ev-go">Ir al feed</button>' : ''}</div></div></div>
+    <div class="fb-card" style="padding:12px 14px"><b>Reto del evento</b>${i.prog ? `<p class="mem-l" style="padding:4px 0">${i.prog.n} de ${i.prog.goal} ${esc(i.prog.unit)}${i.done ? ' ✅' : ''}</p><span class="bar"><i style="width:${Math.min(100, i.prog.n / i.prog.goal * 100)}%"></i></span>` : `<p class="mem-l" style="padding:4px 0">${i.start > now ? 'Disponible cuando empiece el evento.' : 'Este evento ya terminó.'}</p>`}<p class="mem-l" style="padding:6px 0 0">Premio: ${esc(i.prize)}.</p></div>
+    <div class="fb-card"><h3 class="fbg-h">Conversación</h3>${att.slice(0, 3).map((k, j) => `<div class="evp-post">${avatar(k)}<div><b data-persona="${k}">${esc(P[k].n)}</b><p>${esc(posts[j])}</p><small>${ago(Date.now() - (j + 1) * 3.7e6)}</small></div></div>`).join('')}</div>`, 'menu');
+}
+const __oe = openEvents;
+openEvents = async function () {
+  await __oe();
+  const ev = upcomingEvents().map((x) => ({ ...x, i: evInfo(x.kind, x.id) }));
+  $('#fb-extra .fbx-body')?.insertAdjacentHTML('afterbegin', `<div class="fb-card"><h3 class="fbg-h">📌 Eventos de Mysthbook</h3>${ev.map((x) => `<button class="evr" data-hk="evp" data-kind="${x.kind}" data-id="${x.id}"><span class="evr-d" style="background:${x.i.color}"><b>${x.i.start.getDate()}</b><small>${MESES[x.i.start.getMonth()].slice(0, 3).toUpperCase()}</small></span><span><b>${x.i.e} ${esc(x.i.n)}</b><small>${x.i.cur ? 'En curso' : 'Próximamente'}${S.rsvp[x.i.key] ? ' · ✓ Asistirás' : ''}</small></span></button>`).join('')}</div>`);
+};
+
+/* ---------- 5. Series y expedientes como Páginas ---------- */
+const SPAGES = { hist: { n: 'Historias en capítulos', e: '📖', c: '#8A5A2B' }, exp: { n: 'Expedientes secretos', e: '🗂️', c: '#3A2E6B' } };
+const __ce2 = chapEl;
+chapEl = function (sr, i, book) {
+  const el = __ce2(sr, i, book);
+  if (book) { const pk = sr.exp ? 'exp' : 'hist', pg = SPAGES[pk];
+    el.insertAdjacentHTML('afterbegin', `<div class="ph"><span class="pav" style="background:${pg.c}">${pg.e}</span><div class="pn"><div><b data-hk="spage" data-p="${pk}">${pg.n}</b> <span class="verif">✓</span> · <button class="fb-follow${S.pageFollow[pk] ? ' on' : ''}" data-hk="pgf" data-p="${pk}">${S.pageFollow[pk] ? 'Siguiendo' : 'Seguir'}</button></div><small>Página · Parte ${i + 1} de 3</small></div></div>`); }
+  return el;
+};
+function openSeriesPage(pk) {
+  const pg = SPAGES[pk], list = Object.values(S.series).filter((s) => !!s.exp === (pk === 'exp'));
+  if (S.mode !== 'book') setMode('book', false);
+  if ($('#home').hidden) switchView('home');
+  if (fbSub !== 'extra') rememberBack();
+  openExtra(pg.n, `<div class="fb-card pgh"><span class="pgh-av" style="background:${pg.c}">${pg.e}</span><div><h2>${pg.n} <span class="verif">✓</span></h2><small>${pk === 'exp' ? 'Misterios reales en 3 partes. Se desbloquean en cajas y en el pase.' : 'Artículos largos contados en 3 partes.'}</small></div>
+      <button class="fbb ${S.pageFollow[pk] ? '' : 'primary-b'}" data-hk="pgf" data-p="${pk}">${S.pageFollow[pk] ? '✓ Siguiendo' : 'Seguir'}</button></div>
+    <div class="fb-card">${list.length ? list.map((s) => `<button class="near-r" data-hk="series" data-id="${s.id}">${s.img ? `<img src="${esc(s.img)}" alt="">` : `<span class="thumb">${pg.e}</span>`}<span><b>${esc(s.title)}</b><small>${s.read >= 3 ? '✅ Terminada' : `Parte ${Math.min(s.read + 1, 3)} de 3`}</small></span><em>${s.read}/3</em></button>`).join('') : '<p class="empty" style="padding:16px">Todavía no hay publicaciones. Aparecerán en tu feed.</p>'}</div>`, 'menu');
+}
+const __lmb3 = loadMoreBook;
+loadMoreBook = async function () {
+  await __lmb3();
+  if (S.pageFollow.hist && Math.random() < 0.3 && Object.values(S.series).filter((s) => s.read < 3 && !s.exp).length < 3)
+    fetchSeriesArticle().then((sr) => { if (sr) $('#fb-sent')?.before(chapEl(sr, 0, true)); }).catch(() => {});
+  if (batchN.book === 1) { const m = memoryQuizCard(); if (m) $('#fb-feed .offc')?.after(m); }
+  else if (Math.random() < 0.3) { const m = memoryQuizCard(); if (m) $('#fb-sent')?.before(m); }
+};
+
+/* ---------- 6. Editar perfil: marcos, tema, portada y stickers ---------- */
+function cosName(k) {
+  const u = UNLOCKS.find((x) => x.k === k); if (u) return u.n;
+  if (SHOPN[k]) return SHOPN[k];
+  const s = SEASONS.find((x) => k.endsWith('-' + x.id)); if (s) return `${k.startsWith('th-') ? 'Tema' : 'Marco'} ${s.n}`;
+  const m = +k.split('-').pop(); return MESES[m] ? `${k.startsWith('th-') ? 'Tema' : 'Marco'} de ${MESES[m]}` : k;
+}
+openEditProfile = function () {
+  const frames = [...UNLOCKS.filter((u) => u.t === 'frame' && unlocked(u.k)).map((u) => u.k), ...Object.keys(S.owned).filter((k) => k.startsWith('fr-') && S.owned[k])];
+  const themes = [...UNLOCKS.filter((u) => u.t === 'theme' && unlocked(u.k)).map((u) => u.k), ...Object.keys(S.owned).filter((k) => k.startsWith('th-') && S.owned[k])];
+  const chip = (t, k, l, on) => `<button class="chip" data-hk="ep" data-t="${t}" data-k="${k}" aria-pressed="${on}">${esc(l)}</button>`;
+  openSheet('Editar perfil', `<label class="fld">Nombre<input id="pf-name" maxlength="40" value="${esc(S.profile.name || '')}" placeholder="Tu nombre"></label>
+    <label class="fld">Presentación<input id="pf-bio" maxlength="100" value="${esc(S.profile.bio || '')}" placeholder="Aprendiendo algo nuevo cada día"></label>
+    <p class="sub" style="margin:12px 0 6px">🖼️ Marco de foto de perfil</p><div class="goals">${chip('frame', '', 'Sin marco', !S.frame)}${[...new Set(frames)].map((k) => chip('frame', k, cosName(k), S.frame === k)).join('')}</div>
+    <p class="sub" style="margin:12px 0 6px">🎨 Tema</p><div class="goals">${chip('theme', '', 'Clásico', !S.theme)}${[...new Set(themes)].map((k) => chip('theme', k, cosName(k), S.theme === k)).join('')}</div>
+    <p class="sub" style="margin:12px 0 6px">🌄 Portada</p><div class="goals">${chip('cover', '', 'Foto automática', !S.cover)}${Object.keys(S.covers).map((k) => chip('cover', k, COVERS[k][0], S.cover === k)).join('')}</div>
+    ${myStickers().length ? `<p class="sub" style="margin:12px 0 6px">😎 Vitrina de stickers (hasta 6)</p><div class="stk">${myStickers().map((x) => `<button class="stk-i${(S.showcase || []).includes(x) ? ' on' : ''}" data-hk="stk" data-s="${x}">${x}</button>`).join('')}</div>` : ''}
+    <p class="sub" style="margin-top:12px">Consigue más marcos, temas, portadas y stickers en el Marketplace y en el pase.</p>`,
+    `<button class="btn primary" id="pf-save" style="margin-left:auto">Guardar cambios</button>`);
+  $('#pf-save').onclick = () => { S.profile = { name: $('#pf-name').value.trim(), bio: $('#pf-bio').value.trim() }; persist(); closeSheet(); renderProfile(); renderMine(); toast('Perfil actualizado'); };
+};
+const __on6 = openNotes;
+openNotes = function (...args) {
+  const r = __on6(...args);
+  const st = myStickers();
+  if (st.length && $('#note-input')) { $('#sheet-foot').classList.add('has-stk'); $('#sheet-foot').insertAdjacentHTML('afterbegin', `<div class="stk-row">${st.map((x) => `<button data-hk="stk-note" data-s="${x}">${x}</button>`).join('')}</div>`); }
+  return r;
+};
+
+/* ---------- 7. Messenger: activos ahora y reacciones ---------- */
+function activeRow(hk) { const act = PERSONAS().filter(online).slice(0, 10); return `<div class="act-row">${act.map((k) => `<button class="act-p" data-hk="${hk}" data-k="${k}">${avatar(k)}<small>${esc(P[k].n.split(' ')[0])}</small></button>`).join('')}</div>`; }
+const __oi = openInbox;
+openInbox = function () { __oi(); $('#fb-extra .fbx-body')?.insertAdjacentHTML('afterbegin', `<div class="fb-card"><h3 class="fbg-h">Activos ahora</h3>${activeRow('chat')}</div>`); };
+const __ois = openInboxSheet;
+openInboxSheet = function () { __ois(); $('#sheet-body').insertAdjacentHTML('afterbegin', `<p class="sub" style="margin-bottom:6px">Activos ahora</p>${activeRow('chat')}`); };
+let CHAT_K = null;
+const __ocht = openChat;
+openChat = function (k) { CHAT_K = k; __ocht(k); };
+let LP = null;
+document.addEventListener('pointerdown', (e) => {
+  const b = e.target.closest('.chat-sheet .bub[data-mi]'); if (!b) return;
+  clearTimeout(LP); LP = setTimeout(() => showRxPicker(b), 450);
+});
+['pointerup', 'pointercancel', 'pointermove'].forEach((ev) => document.addEventListener(ev, (e) => { if (ev !== 'pointermove' || Math.abs(e.movementY) > 4) clearTimeout(LP); }));
+function showRxPicker(b) {
+  $('.rxp')?.remove();
+  const r = b.getBoundingClientRect(), pk = document.createElement('div'); pk.className = 'rxp';
+  pk.innerHTML = ['❤️', '😂', '😮', '😢', '👍'].map((x) => `<button data-hk="rx" data-mi="${b.dataset.mi}" data-e="${x}">${x}</button>`).join('');
+  pk.style.top = `${Math.max(60, r.top - 54)}px`; pk.style.left = `${Math.min(innerWidth - 230, Math.max(10, r.left))}px`;
+  document.body.append(pk); sfx('pop');
+  setTimeout(() => document.addEventListener('click', function off(ev) { if (!ev.target.closest('.rxp')) { pk.remove(); document.removeEventListener('click', off, true); } }, true), 50);
+}
+
+/* ---------- 8. Notificaciones con filtros y acciones ---------- */
+let NF = 'all';
+const nKind = (n) => n.go?.t === 'dm' ? 'dm' : ['pass', 'album', 'custom', 'series'].includes(n.go?.t) || /[🎁🎟️🃏✨🏆🧊🎓]/u.test(n.icon || '') ? 'prem' : n.who || /coment|respond|mencion|reaccion|gustó|destacado|seguirte/.test(n.html) ? 'men' : 'other';
+function nAction(n) {
+  const t = n.go?.t;
+  if (t === 'dm') return ['Responder', 'n-dm'];
+  if (t === 'pass' && claimable()) return ['Reclamar', 'n-pass'];
+  if (t === 'review' || /repaso/.test(n.html)) return dueFacts().length ? ['Repasar', 'n-rev'] : null;
+  if (t === 'series') return ['Leer', 'n-open'];
+  if (t === 'comments') return ['Ver', 'n-open'];
+  return null;
+}
+renderNotifs = function () {
+  const prev = S.notifMeta.seenAt || 0;
+  S.notifMeta.seenAt = Date.now(); persist(); updateNotifBadge();
+  const all = liveNotifs(), list = NF === 'all' ? all : all.filter((n) => nKind(n) === NF);
+  const row = (n) => { const p = n.who && P[n.who], a = nAction(n);
+    return `<div class="fbn ${n.read ? '' : 'unread'}" data-nid="${n.nid}" role="button"><span class="fbn-av" style="background:${p ? p.c : 'var(--fb-blue)'}">${p ? p.e : n.icon}<i>${n.icon}</i></span><span class="fbn-t">${n.html}<small>${ago(n.at)}</small>${a ? `<button class="fbb fbn-a" data-hk="${a[1]}" data-nid="${n.nid}">${a[0]}</button>` : ''}</span></div>`; };
+  const nuevas = list.filter((n) => n.at > prev || !n.read).slice(0, 30), antes = list.filter((n) => !nuevas.includes(n)).slice(0, 60);
+  const chip = (k, l) => `<button class="chip" data-hk="nf" data-f="${k}" aria-pressed="${NF === k}">${l}</button>`;
+  $('#fb-notifs').innerHTML = `<div class="fb-card fbx-head"><h2>Notificaciones</h2>${all.some((n) => !n.read) ? '<button class="seemore" data-act="readall">Marcar todo como leído</button>' : ''}</div>
+    <div class="fb-card" style="padding:10px 14px"><div class="goals">${chip('all', 'Todas')}${chip('men', 'Menciones')}${chip('dm', 'Mensajes')}${chip('prem', 'Premios')}</div></div>
+    ${nuevas.length ? `<div class="fb-card"><h3 class="fbg-h">Nuevas</h3>${nuevas.map(row).join('')}</div>` : ''}
+    ${antes.length ? `<div class="fb-card"><h3 class="fbg-h">Anteriores</h3>${antes.map(row).join('')}</div>` : ''}
+    ${!list.length ? '<div class="fb-card"><p class="empty" style="padding:20px">No hay notificaciones en esta sección.</p></div>' : ''}`;
+};
+
+/* ---------- 9. Búsqueda con pestañas ---------- */
+let SQT = 'art';
+showSearchBook = function (q, res, related) {
+  if ($('#home').hidden) switchView('home');
+  if (fbSub !== 'extra') rememberBack();
+  const topics = {}; res.forEach((a) => { topics[a.topic] = (topics[a.topic] || 0) + 1; });
+  const tks = Object.keys(topics).filter((k) => TOPIC_KEYS.includes(k)).sort((a, b) => topics[b] - topics[a]);
+  const people = PERSONAS().map((k) => [k, P[k].top.reduce((s, t) => s + (topics[t] || 0), 0)]).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([k]) => k);
+  SQT = 'art';
+  openExtra(`🔍 ${q}`, `<div class="fb-card srch-h"><b>Resultados de «${esc(q)}»</b><div class="goals srch-tabs"><button class="chip" data-hk="sqt" data-t="art" aria-pressed="true">Artículos (${res.length})</button><button class="chip" data-hk="sqt" data-t="per" aria-pressed="false">Personas (${people.length})</button><button class="chip" data-hk="sqt" data-t="grp" aria-pressed="false">Grupos (${tks.length})</button><button class="chip" data-hk="sqt" data-t="pag" aria-pressed="false">Páginas (${tks.length})</button></div><div class="sq-wrap">${questHTML()}</div></div>
+    <div data-sqp="art"><div id="srch-posts"></div>${related.length ? `<div class="fb-card" style="padding:12px 14px"><b>Temas relacionados</b>${relatedHTML(related)}</div>` : ''}</div>
+    <div data-sqp="per" hidden><div class="fb-card">${people.length ? people.map((k) => `<div class="frow">${avatar(k)}<div class="frow-b" data-persona="${k}"><b>${esc(P[k].n)}</b><small>Le interesa ${P[k].top.map((t) => TOPICS[t]?.n.toLowerCase()).join(' y ')} · 🤝 ${friendLevel(k).name}</small></div><button class="fbb" data-hk="sq-dm" data-k="${k}" data-q="${esc(q)}">Mensaje</button></div>`).join('') : '<p class="empty" style="padding:16px">Nadie habla de este tema todavía.</p>'}</div></div>
+    <div data-sqp="grp" hidden><div class="fb-card">${tks.map(groupCard).join('') || '<p class="empty" style="padding:16px">No hay grupos relacionados.</p>'}</div></div>
+    <div data-sqp="pag" hidden><div class="fb-card">${tks.map((k) => `<button class="frow" data-hk="pg-open" data-k="${k}"><span class="cav" style="background:${TOPICS[k].c}">${TOPICS[k].e}</span><div class="frow-b"><b>${esc(TOPICS[k].n)}</b><small>Página · ${S.follows[k] ? 'Siguiendo' : 'Artículos de ' + TOPICS[k].n.toLowerCase()}</small></div><span class="ps-go" style="color:var(--fb-muted)">›</span></button>`).join('') || '<p class="empty" style="padding:16px">No hay páginas relacionadas.</p>'}</div></div>
+    <div class="fb-card" style="padding:12px 14px"><button class="fbb" data-hk="search-b">🔍 Buscar otra cosa</button></div>`, 'inicio');
+  const box = $('#srch-posts');
+  res.forEach((a) => box.append(postEl({ type: a.src === 'quote' ? 'quote' : a.img ? 'photo' : 'fact', a }, 'search')));
+};
+function searchDM(k, q) {
+  pushDM(k, [{ f: 'p', t: `¡Hola! Vi que te interesa ${q} 😄 A mí también me encanta ese tema.`, opts: [
+    { l: '¿Qué es lo que más te gusta?', r: `Que siempre hay algo nuevo que descubrir. Cada vez que leo sobre ${q} termino en otro artículo, jaja 🕳️` },
+    { l: '¿Me recomiendas algo?', r: 'Empieza por el artículo general y luego vete a los detalles, así se entiende todo mejor 📚' },
+    { l: 'Apenas estoy aprendiendo', r: '¡Qué padre! Si tienes dudas, pregúntame 🙌' }] }]);
+  openChat(k);
+}
+
+/* ---------- 10. Publicar con sentimiento o actividad ---------- */
+const FEELS = [['📚', 'Aprendiendo sobre', '¡Qué buen tema! Cuéntanos más 🤓'], ['🤯', 'Sorprendido por', '¡Yo también me sorprendí cuando lo leí! 🤯'], ['🇰🇷', 'Practicando coreano', '¡화이팅! Qué bien que practiques coreano 🇰🇷'],
+  ['🤔', 'Pensando en', 'Buena reflexión, me dejaste pensando 🤔'], ['🎉', 'Celebrando', '¡Felicidades! 🎉 Te lo mereces'], ['😴', 'Cansado', 'Descansa mucho 😌 Mañana será otro día']];
+openCompose = function () {
+  let feel = null;
+  openSheet('Crear publicación', `<p class="sub">Comparte algo que aprendiste. Solo tú verás tus publicaciones.</p>
+    <p class="sub" style="margin:10px 0 6px">¿Qué estás haciendo o sintiendo?</p><div class="goals">${FEELS.map((f, i) => `<button class="chip" data-feel="${i}" aria-pressed="false">${f[0]} ${f[1]}</button>`).join('')}</div>
+    ${myStickers().length ? `<div class="stk" style="margin-top:10px">${myStickers().map((x) => `<button class="stk-i" data-hk="stk-add" data-s="${x}">${x}</button>`).join('')}</div>` : ''}`,
+    `<textarea id="post-input" rows="3" maxlength="2000" placeholder="¿Qué aprendiste hoy?" aria-label="Publicación"></textarea><button class="btn primary" id="post-send">Publicar</button>`);
+  setTimeout(() => $('#post-input')?.focus(), 80);
+  $('#sheet-body').onclick = (e) => { const b = e.target.closest('[data-feel]'); if (!b) return; const i = +b.dataset.feel; feel = feel === i ? null : i; $$('[data-feel]').forEach((x) => x.setAttribute('aria-pressed', String(+x.dataset.feel === feel))); if (feel != null) $('#post-input').placeholder = `${FEELS[i][1]}…`; };
+  sheetClose = () => { $('#sheet-body').onclick = null; };
+  $('#post-send').onclick = () => {
+    const t = $('#post-input').value.trim(); if (!t && feel == null) return;
+    const f = feel != null ? FEELS[feel] : null;
+    const it = { pid: 'p' + Date.now(), kind: 'post', text: f ? `${f[0]} ${f[1]}${t ? `: ${t}` : ''}` : t, at: Date.now(), feel };
+    scheduleEngagement(it);
+    if (f) { const k = pickPersona(); addNotif({ at: Date.now() + (3 + rnd(12)) * 60000, icon: '💬', who: k, html: `<b>${esc(P[k].n)}</b> comentó tu publicación: “${esc(f[2])}”`, go: { t: 'post' } }); }
+    S.myPosts = [...S.myPosts, it]; persist();
+    closeSheet(); showSub('inicio'); bookEl.scrollTop = 0; toast('Publicación creada');
+  };
+};
+
+/* ---------- Acciones ---------- */
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-hk]'); if (!b) return;
+  const k = b.dataset.hk, d = b.dataset;
+  const fn = {
+    chat: () => { closeSheet(); setTimeout(() => openChat(d.k), 50); },
+    addf: () => addFriend(d.k), rmsug: () => { S.friendReq[d.k] = -1; persist(); renderAmigos(); },
+    'mk-tab': () => { MK_TAB = d.t; renderMarket(); },
+    'mk-buy': () => { const p = +d.p; if ((S.coins || 0) < p) return toast('No te alcanzan las monedas'); S.coins -= p; S.pend[d.q] = { at: Date.now(), v: '', src: 'marketplace' }; persist(); sfx('coin'); toast(`🛍️ ¡Comprado! «${S.cromoMeta[d.q]?.l}» llega sin verificar`); renderMarket(); },
+    'mk-trade': () => { const give = pickOne(Object.keys(S.dupes).filter((q) => S.dupes[q] > 0)); if (!give) return; doTrade({ give, get: d.q }); friendUp(d.k, 2); renderMarket(); },
+    'mk-sell': () => { if (!(S.dupes[d.q] > 0)) return; S.dupes[d.q]--; addCoins(SELLV[rarity(d.q)[1]], 'venta en Marketplace'); renderMarket(); },
+    memq: () => { const m = MEMQ.get(d.m); if (!m) return; MEMQ.delete(d.m); const card = b.closest('.memq'), ok = +d.i === m.ok;
+      $$('[data-hk="memq"]', card).forEach((x, i) => { x.disabled = true; x.classList.add(i === m.ok ? 'right' : x === b ? 'wrong' : 'dim'); });
+      gradeFact(m.fid, ok); quizResult(ok); if (ok) addXP(3);
+      $('.memq-r', card).textContent = ok ? '✅ ¡Lo recordaste! Volverá en unos días para que no se te olvide.' : `❌ Era: ${m.ans}. Te lo volveremos a preguntar pronto.`; },
+    evp: () => openEventPage(d.kind, d.id),
+    rsvp: () => { const i = evInfo(d.kind, d.id); if (S.rsvp[i.key]) delete S.rsvp[i.key]; else { S.rsvp[i.key] = Date.now(); addXP(5); toast('⭐ ¡Asistirás! Te avisaremos cuando empiece'); } persist(); openEventPage(d.kind, d.id); },
+    'ev-go': () => { showSub('inicio'); },
+    spage: () => openSeriesPage(d.p),
+    pgf: () => { S.pageFollow[d.p] = !S.pageFollow[d.p]; persist(); toast(S.pageFollow[d.p] ? `Sigues a ${SPAGES[d.p].n}` : 'Dejaste de seguir la página'); $$(`[data-hk="pgf"][data-p="${d.p}"]`).forEach((x) => { x.textContent = S.pageFollow[d.p] ? 'Siguiendo' : 'Seguir'; x.classList.toggle('on', S.pageFollow[d.p]); }); },
+    ep: () => { if (d.t === 'cover') S.cover = d.k; else S[d.t] = d.k || ''; persist(); applyCosmetics(); $$(`[data-hk="ep"][data-t="${d.t}"]`).forEach((x) => x.setAttribute('aria-pressed', String(x === b))); },
+    'stk-note': () => { const t = $('#note-input'); if (t) { t.value += d.s; t.focus(); } },
+    rx: () => { const m = S.dms[CHAT_K]?.[+d.mi]; if (m) { m.rx = m.rx === d.e ? '' : d.e; persist(); } $('.rxp')?.remove(); if (CHAT_K) openChat(CHAT_K); },
+    nf: () => { NF = d.f; renderNotifs(); },
+    'n-dm': () => { const n = S.notifs.find((x) => x.nid === d.nid); if (n) { n.read = true; persist(); openChat(n.go.k); } },
+    'n-pass': () => openPass(), 'n-rev': () => startReview(),
+    'n-open': () => openNotif(d.nid),
+    sqt: () => { SQT = d.t; $$('[data-hk="sqt"]').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.t === SQT))); $$('[data-sqp]').forEach((x) => { x.hidden = x.dataset.sqp !== SQT; }); },
+    'sq-dm': () => searchDM(d.k, d.q), 'pg-open': () => openTopicPage(d.k, 'page')
+  }[k];
+  if (fn) { e.stopPropagation(); fn(); }
+}, true);
+const __on7 = openNotif;
+openNotif = function (nid) { const n = S.notifs.find((x) => x.nid === nid); if (n?.go?.t === 'evp') { n.read = true; persist(); openEventPage(n.go.kind, n.go.id); return; } __on7(nid); };
+const __edn6 = ensureDailyNotifs;
+ensureDailyNotifs = async function () {
+  const fresh = S.notifMeta.day !== dayKey();
+  await __edn6();
+  if (!fresh) return;
+  if (S.rsvp['w:' + weekId()] && new Date().getDay() === 1) addNotif({ icon: '⭐', html: `Hoy empieza un evento al que vas a asistir: <b>${esc(currentEvent().n)}</b>.`, go: { t: 'evp', kind: 'week', id: weekId() } });
+  const s = currentSeason(); if (s && S.rsvp['s:' + s.id] && !S.seasonDone[seasonKey(s)]) addNotif({ icon: s.e, html: `<b>${esc(s.n)}</b> está en curso. ¡No olvides tu reto!`, go: { t: 'evp', kind: 'season', id: s.id } });
+};
+
+/* =========================================================
+   Deslizar estilo Tinder
+   ========================================================= */
+const SWD = () => { const d = dayKey(); if (S.swipeDay?.d !== d) S.swipeDay = { d, sup: 3, rew: 3, boost: 1, n: 0 }; return S.swipeDay; };
+let SWQ = [], SWH = [], SW_BOOST = 0, SW_PANEL = 0, SW_OV = null, SW_LOADING = false;
+async function swMore() {
+  if (SW_LOADING) return; SW_LOADING = true;
+  try {
+    const l = SW_BOOST > 0 ? await fetchQuality(10, S.lang === 'en' ? 'en' : 'es', true) : await fetchBatch();
+    l.filter((a) => a.img && !A.has(a.id) || (a.img && !SWQ.some((x) => x.id === a.id) && !S.toRead[a.id])).forEach((a) => { A.set(a.id, a); if (SW_BOOST > 0) { a.boost = true; SW_BOOST--; } if (!SWQ.some((x) => x.id === a.id)) SWQ.push(a); });
+  } catch {}
+  SW_LOADING = false;
+}
+openSwipe = async function () {
+  $('.swp')?.remove();
+  const ov = document.createElement('div'); ov.className = 'swp tnd'; SW_OV = ov;
+  document.body.append(ov);
+  renderSwipeShell();
+  if (SWQ.length < 3) { await swMore(); }
+  renderStack();
+};
+function matchesRow() {
+  const list = Object.values(S.toRead).sort((x, y) => y.at - x.at).slice(0, 12);
+  return list.length ? list.map((a) => `<button class="tm" data-hk="tm-open" data-id="${esc(a.id)}"><span style="background-image:url('${esc(a.img || '')}')">${a.sup ? '<i>⭐</i>' : ''}</span><small>${esc(short(a.title, 14))}</small></button>`).join('') : '<p class="tm-empty">Tus «me interesa» aparecerán aquí</p>';
+}
+function renderSwipeShell() {
+  const sd = SWD();
+  SW_OV.innerHTML = `<div class="swp-f"><div class="swp-top"><b class="tnd-logo">🔥 mysthswipe</b><small id="swp-n">${Object.keys(S.toRead).length} por leer</small><button class="x" data-hk="swp-close" aria-label="Cerrar">✕</button></div>
+    <div class="tm-row" id="tm-row">${matchesRow()}</div>
+    <div class="swp-stack" id="swp-stack"><p class="mem-l" style="color:#fff">Cargando…</p></div>
+    <div class="swp-btns tnd-b">
+      <button class="sb-rew" data-hk="sw-rew" aria-label="Deshacer">↩️<i>${sd.rew}</i></button>
+      <button class="sb-no" data-hk="sw-no" aria-label="Paso">✕</button>
+      <button class="sb-sup" data-hk="sw-sup" aria-label="Súper interés">⭐<i>${sd.sup}</i></button>
+      <button class="sb-yes" data-hk="sw-yes" aria-label="Me interesa">♥</button>
+      <button class="sb-boo" data-hk="sw-boost" aria-label="Boost">⚡<i>${sd.boost}</i></button></div>
+    <p class="swp-tip">Toca los lados de la tarjeta para ver más · ⭐ Súper interés: 3 al día · ⚡ Boost: solo destacados</p></div>`;
+}
+function panelHTML(a, p) {
+  const tags = [`${T(a).e} ${T(a).n}`, a.lang === 'en' ? '🇬🇧 Inglés' : '🇪🇸 Español', a.featured ? '⭐ Destacado' : '', a.boost ? '⚡ Boost' : '', a.why?.startsWith('cerca:') ? '📍 Cerca de ti' : ''].filter(Boolean);
+  if (p === 0) return `<div class="swp-t"><b>${esc(a.title)}</b><p>${esc(a.desc || '')}</p><div class="tnd-tags">${tags.map((t) => `<span>${t}</span>`).join('')}</div></div>`;
+  if (p === 1) return `<div class="swp-t full"><small>Sobre este artículo</small><p class="tnd-bio">${esc(short(a.text, 330))}</p></div>`;
+  const words = Math.round((a.text || '').split(/\s+/).length * 4.5);
+  return `<div class="swp-t full"><small>Datos rápidos</small><ul class="tnd-facts"><li>📖 ${Math.max(1, Math.round(words / 200))} min de lectura completa</li><li>${T(a).e} Tema: ${esc(T(a).n)}</li><li>${a.lang === 'en' ? '🇬🇧 En inglés' : '🇪🇸 En español'}</li>${a.featured ? '<li>⭐ Artículo destacado de Wikipedia</li>' : ''}<li>👥 A ${40 + (hash(a.id) % 300)} personas de Mysthbook les interesó</li></ul></div>`;
+}
+function renderStack() {
+  const st = $('#swp-stack', SW_OV); if (!st) return;
+  if (SWQ.length < 4) swMore().then(() => { if (!$('.tcard.top', SW_OV)) renderStack(); });
+  if (!SWQ.length) { st.innerHTML = '<div class="tnd-empty"><span>🔎</span><p>Buscando más artículos para ti…</p></div>'; return; }
+  SW_PANEL = 0;
+  st.innerHTML = SWQ.slice(0, 3).map((a, i) => `<div class="tcard${i === 0 ? ' top' : ''}" style="--i:${i};background-image:url('${esc(a.img)}')">${i === 0 ? `<div class="tbars">${[0, 1, 2].map((j) => `<i class="${j === 0 ? 'on' : ''}"></i>`).join('')}</div><span class="stamp yes">ME INTERESA</span><span class="stamp no">PASO</span><span class="stamp sup">SÚPER ⭐</span><div class="tpanel">${panelHTML(a, 0)}</div>` : ''}</div>`).reverse().join('');
+  const c = $('.tcard.top', st), a = SWQ[0];
+  let x0 = null, y0 = null, dx = 0, dy = 0, moved = false;
+  c.onpointerdown = (e) => { x0 = e.clientX; y0 = e.clientY; moved = false; c.setPointerCapture(e.pointerId); c.style.transition = 'none'; };
+  c.onpointermove = (e) => {
+    if (x0 == null) return; dx = e.clientX - x0; dy = e.clientY - y0; if (Math.abs(dx) + Math.abs(dy) > 8) moved = true;
+    c.style.transform = `translate(${dx}px, ${dy}px) rotate(${dx / 14}deg)`;
+    c.classList.toggle('to-yes', dx > 60); c.classList.toggle('to-no', dx < -60); c.classList.toggle('to-sup', dy < -80 && Math.abs(dx) < 60);
+  };
+  c.onpointerup = (e) => {
+    if (x0 == null) return; x0 = null; c.style.transition = '';
+    if (!moved) { const r = c.getBoundingClientRect(); const right = e.clientX - r.left > r.width / 2; SW_PANEL = Math.max(0, Math.min(2, SW_PANEL + (right ? 1 : -1))); $('.tpanel', c).innerHTML = panelHTML(a, SW_PANEL); $$('.tbars i', c).forEach((b, j) => b.classList.toggle('on', j === SW_PANEL)); c.classList.toggle('dim', SW_PANEL > 0); sfx('tick'); return; }
+    if (dy < -120 && Math.abs(dx) < 80) swipeDo('sup');
+    else if (Math.abs(dx) > 110) swipeDo(dx > 0 ? 'yes' : 'no');
+    else { c.style.transform = ''; c.classList.remove('to-yes', 'to-no', 'to-sup'); }
+    dx = dy = 0;
+  };
+}
+function swipeDo(kind) {
+  const a = SWQ[0]; if (!a) return;
+  const sd = SWD();
+  if (kind === 'sup' && sd.sup <= 0) { toast('Ya usaste tus 3 súper intereses de hoy ⭐'); const c = $('.tcard.top', SW_OV); if (c) c.style.transform = ''; return; }
+  SWQ.shift();
+  const c = $('.tcard.top', SW_OV);
+  if (c) { c.style.transition = 'transform .35s ease-in'; c.style.transform = kind === 'sup' ? 'translateY(-900px)' : `translateX(${kind === 'yes' ? 700 : -700}px) rotate(${kind === 'yes' ? 28 : -28}deg)`; }
+  sfx(kind === 'no' ? 'swipe' : kind === 'sup' ? 'card' : 'pop');
+  const undo = { a, kind, prevDis: S.dislike[a.topic] || 0, prevLike: S.likedTopics[a.topic] || 0 };
+  if (kind === 'no') S.dislike[a.topic] = Math.min(3, (S.dislike[a.topic] || 0) + 0.03);
+  else { S.toRead[a.id] = { ...pick(a), at: Date.now(), sup: kind === 'sup' }; S.likedTopics[a.topic] = (S.likedTopics[a.topic] || 0) + (kind === 'sup' ? 1 : 0.5); if (kind === 'sup') sd.sup--; }
+  seen.add(a.id); SWH.push(undo); SWH = SWH.slice(-10);
+  sd.n++; if (sd.n % 15 === 0) { addXP(5); toast(`🔥 ${sd.n} decisiones hoy: +5 XP`); }
+  persist();
+  const match = kind !== 'no' && Math.random() < (kind === 'sup' ? 0.6 : 0.22);
+  setTimeout(() => { renderSwipeShell(); renderStack(); if (match) showMatch(a); }, 330);
+}
+function swipeRewind() {
+  const sd = SWD(), u = SWH.pop();
+  if (!u) { toast('No hay nada que deshacer'); return; }
+  if (sd.rew <= 0) { SWH.push(u); toast('Ya usaste tus 3 deshacer de hoy ↩️'); return; }
+  sd.rew--; S.dislike[u.a.topic] = u.prevDis; S.likedTopics[u.a.topic] = u.prevLike;
+  if (u.kind !== 'no') { delete S.toRead[u.a.id]; if (u.kind === 'sup') sd.sup++; }
+  SWQ.unshift(u.a); persist(); sfx('tick'); renderSwipeShell(); renderStack();
+}
+function showMatch(a) {
+  const k = PERSONAS().sort((x, y) => (P[y].top.includes(a.topic) ? 1 : 0) - (P[x].top.includes(a.topic) ? 1 : 0) || Math.random() - 0.5)[0];
+  const m = document.createElement('div'); m.className = 'tmatch';
+  m.innerHTML = `<div class="tmatch-in"><p class="tmatch-t">¡Es un match!</p><p class="tmatch-s">A <b>${esc(P[k].n)}</b> también le interesó «${esc(a.title)}»</p>
+    <div class="tmatch-av"><span class="tm-a" style="background-image:url('${esc(a.img)}')"></span><span class="tm-p" style="background:${P[k].c}">${P[k].e}</span></div>
+    <button class="btn primary" data-hk="tm-msg" data-k="${k}" data-id="${esc(a.id)}">💬 Enviar mensaje</button><button class="btn tm-keep" data-hk="tm-keep">Seguir deslizando</button></div>`;
+  document.body.append(m); sfx('win'); confetti(innerWidth / 2, innerHeight * 0.35);
+}
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-hk]'); if (!b) return;
+  const k = b.dataset.hk, d = b.dataset;
+  const fn = {
+    'sw-yes': () => swipeDo('yes'), 'sw-no': () => swipeDo('no'), 'sw-sup': () => swipeDo('sup'), 'sw-rew': swipeRewind,
+    'sw-boost': () => { const sd = SWD(); if (sd.boost <= 0) return toast('El boost se recarga mañana ⚡'); sd.boost--; SW_BOOST = 10; SWQ = SWQ.slice(0, 1); persist(); toast('⚡ ¡Boost! Las siguientes 10 tarjetas son artículos destacados'); sfx('level'); swMore().then(() => { renderSwipeShell(); renderStack(); }); },
+    'swp-close': () => { SW_OV?.remove(); SW_OV = null; },
+    'tm-open': () => { const a = S.toRead[d.id]; if (a) { SW_OV?.remove(); SW_OV = null; A.set(a.id, a); openRead(a); delete S.toRead[a.id]; persist(); } },
+    'tm-keep': () => b.closest('.tmatch').remove(),
+    'tm-msg': () => { b.closest('.tmatch').remove(); const a = getA(d.id) || S.toRead[d.id];
+      pushDM(d.k, [{ f: 'p', t: `¡Hicimos match con «${a?.title || 'ese artículo'}»! 😄 ¿Qué te llamó la atención?`, ...(a ? { card: minA(a) } : {}), opts: [{ l: 'La foto 😍', r: '¡Jaja, a mí también! Y lo que cuenta está increíble.' }, { l: 'El tema', r: 'Es de mis favoritos. Cuando lo leas me dices qué te pareció 📖', a: 'read' }, { l: 'Pura curiosidad', r: 'La curiosidad siempre gana 🚀' }] }]);
+      SW_OV?.remove(); SW_OV = null; openChat(d.k); }
   }[k];
   if (fn) { e.stopPropagation(); fn(); }
 }, true);

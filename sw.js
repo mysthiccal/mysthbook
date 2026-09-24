@@ -1,4 +1,4 @@
-const SHELL_CACHE = 'mysthigram-shell-v18';
+const SHELL_CACHE = 'mysthigram-shell-v21';
 const MEDIA_CACHE = 'madriguera-media';
 const MEDIA_LIMIT = 300;
 const SHELL = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-512-maskable.png', './apple-touch-icon.png'];
